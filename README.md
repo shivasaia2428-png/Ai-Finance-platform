@@ -6,21 +6,21 @@ This platform enables users to manage accounts, track transactions, scan receipt
 The project follows industry best practices in architecture, file structure, UI design, and API development.
 
 **Project Structure**
-├── actions/            # Server actions for business logic (Next.js)
-├── app/                # App router pages & layouts
-├── components/         # Reusable UI components
-├── components.json     # ShadCN component config
-├── data/               # Static or mock data
-├── emails/             # Email templates
-├── hooks/              # Reusable React hooks
-├── lib/                # Utility functions, API clients, helpers
-├── prisma/             # Prisma schema & migrations
-├── public/             # Static assets (icons, images, etc.)
-├── middleware.js       # Auth / middleware logic
-├── next.config.mjs     # Next.js configuration
-├── package.json        # Dependencies
-├── tailwind.config.js  # TailwindCSS config
-└── postcss.config.mjs  # PostCSS config
+actions/            # Server actions for business logic (Next.js)
+app/                # App router pages & layouts
+components/         # Reusable UI components
+components.json     # ShadCN component config
+data/               # Static or mock data
+emails/             # Email templates
+hooks/              # Reusable React hooks
+lib/                # Utility functions, API clients, helpers
+prisma/             # Prisma schema & migrations
+public/             # Static assets (icons, images, etc.)
+middleware.js       # Auth / middleware logic
+next.config.mjs     # Next.js configuration
+package.json        # Dependencies
+tailwind.config.js  # TailwindCSS config
+postcss.config.mjs  # PostCSS config
 
 
 Tech Stack
